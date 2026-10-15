@@ -1,0 +1,15 @@
+[project]
+name = "photobase"
+version = "1.0.0"
+description = "Visionneuse de base Excel avec images integrees"
+requires-python = ">=3.10"
+dependencies = [
+  "flet==0.28.3",
+  "openpyxl",
+  "pillow",
+]
+
+[tool.flet]
+org = "com.photobase"
+product = "PhotoBase"
+company = "PhotoBase"
